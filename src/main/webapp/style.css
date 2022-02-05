@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+*{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+		
+}
+ 
+
+body{
+	min-height:75ch;
+	background-image:url(photos/pharm5.jfif);
+}
+form{
+	text-align: center;
+	background-color:black;
+	width: 336px;
+    height: 533px;
+	padding: 75px 50px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+h1{
+	align-self: center;
+	margin-bottom: 45px;
+	color:white;
+
+}
+.textBox{
+	
+	position: relative;
+	margin: 35px 0;
+	color:white;
+}
+.textBox input {
+	
+	outline: none;
+	width:100%;
+	font-size: medium;
+
+}
+.loginbtn{
+	height: 60px;
+	width:500%;
+	border:none;
+	
+	font-size: 8px;
+}
+.loginbtn:hover{
+	background-position: right;
+}
+.signup{
+	color:black;
+	margin-top: 45px;
+	text-align: center;
+
+}
+.signup a{
+	color: black;
+}
